@@ -1,0 +1,12 @@
+#filter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+select{
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    outline: none;
+}
