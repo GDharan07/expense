@@ -22,7 +22,7 @@ const ExpenseItem =(props)=>{
 {/* <p>{props.exe.date}</p> */}
 <p id="loan">{props.exe.loan}</p>
 <p id="cost">{props.exe.cost}</p>
-<button  onClick={()=>props.del(props.exe.id)}>Delete</button>
+<button  onClick={()=>props.del(props.exe.id)} id='del-btn'>Delete</button>
 </Card>
 </div>
 

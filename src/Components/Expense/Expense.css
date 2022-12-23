@@ -26,3 +26,31 @@
     color: white;
     border-radius: 10px;
 }
+
+
+@media  only screen and (max-width:600px){
+   
+    #expense{
+        display: flex;
+        justify-content: space-between;
+        margin: 2px;
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 85%;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #loan{
+        font-size: 15px;
+    }
+    #cost{
+        font-size: 15px;
+        border: 2px solid black;
+        padding: 5px;
+        background-color: violet;
+        color: white;
+        border-radius: 10px;
+    }   
+}
